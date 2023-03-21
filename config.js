@@ -14,7 +14,7 @@ const CONFIG = {
 	name: 'Kaitlin!',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning,',
@@ -42,7 +42,7 @@ const CONFIG = {
 	changeThemeByOS: true,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
-	changeThemeByHour: false,
+	changeThemeByHour: true,
 	hourDarkThemeActive: '18:30',
 	hourDarkThemeInactive: '07:00',
 
@@ -73,19 +73,19 @@ const CONFIG = {
 			id: '4',
 			name: 'Calendar',
 			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			link: 'https://calendar.google.com/calendar/u/1/r/',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
+			name: 'Google Drive',
 			icon: 'glasses',
-			link: 'https://reddit.com',
+			link: 'https://drive.google.com/drive/u/1/my-drive',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Tumblr',
+			icon: 'mouse-pointer',
+			link: 'https://tumblr.com/',
 		},
 	],
 
@@ -139,15 +139,15 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Spotify',
+					link: 'https://play.spotify.com/browse',
+				},
+				{
+					name: 'Twitch',
+					link: 'https://twitch.tv',
 				},
 				{
 					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Oldies',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
@@ -165,8 +165,8 @@ const CONFIG = {
 					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Webflow',
+					link: 'https://webflow.com/dashboard',
 				},
 				{
 					name: 'Trello',
